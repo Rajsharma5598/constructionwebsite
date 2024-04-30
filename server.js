@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 // Connect to MongoDB (replace 'your-mongodb-uri' with your actual MongoDB connection string)
-mongoose.connect('mongodb+srv://rajsharma55987:12345@cluster0.nwnzdak.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://rajsharma55987:12345@cluster0.bpd2c9u.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define a schema for the data
 const userSchema = new mongoose.Schema({
